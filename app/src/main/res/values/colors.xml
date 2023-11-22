@@ -8,5 +8,7 @@
     <color name="verde">#66ff33</color>
     <color name="rojo">#ff0000</color>
     <color name="rosaPalo">#ff00ff</color>
+    <color name="AzulClarito">#66ccff</color>
+    <color name="AzulOscuro">#0037FF</color>
 
 </resources>

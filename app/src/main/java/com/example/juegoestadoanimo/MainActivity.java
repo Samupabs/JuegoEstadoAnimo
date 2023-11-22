@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.GridLayout;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 import java.util.ArrayList;
@@ -43,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         //Boton 1
-        Button btnUno = findViewById(R.id.button_1);
+        ImageButton btnUno = findViewById(R.id.button_1);
         btnUno.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -52,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         //Boton 2
-        Button btnDos = findViewById(R.id.button_2);
+        ImageButton btnDos = findViewById(R.id.button_2);
         btnDos.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -61,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         //Boton 3
-        Button btnTres = findViewById(R.id.button_3);
+        ImageButton btnTres = findViewById(R.id.button_3);
         btnTres.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -70,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         //Boton 4
-        Button btnCuatro = findViewById(R.id.button_4);
+        ImageButton btnCuatro = findViewById(R.id.button_4);
         btnCuatro.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -79,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         //Boton 5
-        Button btnCinco = findViewById(R.id.button_5);
+        ImageButton btnCinco = findViewById(R.id.button_5);
         btnCinco.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -88,7 +89,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         //Boton 6
-        Button btnSeis = findViewById(R.id.button_6);
+        ImageButton btnSeis = findViewById(R.id.button_6);
         btnSeis.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -97,7 +98,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         //Boton 7
-        Button btnSiete = findViewById(R.id.button_7);
+        ImageButton btnSiete = findViewById(R.id.button_7);
         btnSiete.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -106,7 +107,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         //Boton 8
-        Button btnOcho = findViewById(R.id.button_8);
+        ImageButton btnOcho = findViewById(R.id.button_8);
         btnOcho.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -115,7 +116,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         //Boton 9
-        Button btnNueve = findViewById(R.id.button_9);
+        ImageButton btnNueve = findViewById(R.id.button_9);
         btnNueve.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -133,11 +134,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void estasFeliz(){
-        Toast.makeText(this, "¡Estás eufórico!", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "¡Eres un perro bueno!", Toast.LENGTH_SHORT).show();
     }
 
     public void estasTriste(){
-        Toast.makeText(this, "Estás depre :C", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Eres un perro malo >:( ", Toast.LENGTH_SHORT).show();
     }
 
     // Si clicka en un boton rojo sumará uno al contador de rojo y otro al contador
