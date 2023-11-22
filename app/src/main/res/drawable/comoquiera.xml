@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- res/drawable/rectangular_button_background.xml -->
+    <shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <corners android:radius="0dp"/> <!-- Establece el radio de las esquinas a 0 para hacerlo rectangular -->
+    </shape>
+
+</selector>
